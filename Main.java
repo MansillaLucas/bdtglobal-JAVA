@@ -35,11 +35,13 @@ class Main {
     public static void main(String[] args) {
         
         // Ejercicio 1
+        System.out.println("Ejercicio 1:");
         int[] array = {1,2,3,2,4,2,3};
         int count = ocurrencias(3, array);
         System.out.println("El contador de elementos es: " + count);
 
         // Ejercicio 2
+        System.out.println("\nEjercicio 2:");
         int[] myArray = { 8,1,6,7,8,4,9,8,2 }; 
         asteriscos(myArray);
 
