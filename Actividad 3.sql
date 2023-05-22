@@ -1846,7 +1846,8 @@ WHERE emp.ID_GERENCIA IN
 	  HAVING SUM(e.SALARIO) >= 430000);
 
 ------------------------------------------
--- Las únicas gerencias que no entran dentro del rango son:
+-- Al principio se registran 20 genrencias.
+-- Las gerencias que no entran dentro del rango son:
 
 --	ID: 5 - ('Administracion','Trelew'),
 --	ID: 6 - ('Recursos Humanos','Rawson'),
@@ -1855,5 +1856,7 @@ WHERE emp.ID_GERENCIA IN
 --	ID: 17 - ('Finanzas','Gaiman'),
 --	ID: 18 - ('Produccion','Gaiman'),
 --	ID: 20 - ('Administracion','Gaiman')
+
+-- mostrando como resultado solo 13 gerencias.
 
 ------------------------------------------
